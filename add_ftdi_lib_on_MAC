@@ -1,0 +1,6 @@
+#install homebrew on mac
+brew install libusb
+pip3 install pyftdi
+pip3 install adafruit-blinka
+#connect board and set it
+export BLINKA_FT232H=1
